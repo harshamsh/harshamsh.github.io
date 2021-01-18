@@ -21,13 +21,13 @@ body {
 .navbar-brand h1 { /* Restaurant name */
   font-family:'Yusei Magic', sans-serif;
   color: #66fcf1;
-  font-size: 1.5em;
+  font-size: 30px;
   text-transform: uppercase;
   
   text-shadow: 1px 1px 1px #0b0c10;
-  margin-top: 0;
+  margin-top: 10;
   margin-bottom: 0;
-  line-height: .5;
+  line-height: 0;
 }
 
 
@@ -36,15 +36,10 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #45a29e;
-  padding-left: 50px;
-  font-family: 'Dancing Script', cursive;
-  font-size: .7em;
-  margin-top: 6px;
-}
+
 #nav-list {
-  margin-top: 10px;
+  margin-top: 20px;
+  text-align: right;
 }
 #nav-list a {
   color: #66fcf1;
