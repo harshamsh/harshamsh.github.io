@@ -54,12 +54,12 @@ body {
   font-size: 1.5em;
 }
 #phone {
-  margin-top: 5px;
+  margin-top: 0px;
   
 }
 #phone a { /* Phone number */
   text-align: right;
-  padding-bottom: 0;
+  padding-bottom: 05;
 }
 #phone span span{ /* Phone number */
 font-family: 'Dancing Script', cursive;
@@ -83,11 +83,19 @@ font-family: 'Dancing Script', cursive;
 
 
 
+
+
 /*body*/
 
 #main-content >h1{
   color:#66fcf1;
   text-align: center;
+
+  background: #66fcf1;
+  color: #1f2833;
+  margin: 0 10px;
+  padding: 2px;
+  border-radius: 10px;
 }
 #food1>h1{
   text-align: center;
@@ -104,6 +112,7 @@ font-family: 'Dancing Script', cursive;
   right: 0;
   margin-bottom: 20px;
   border-radius: 20px;
+
  
 
  
@@ -173,7 +182,7 @@ margin-top: 20px;
     height: 10px;
   }
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;font-size: 5vw;
+    padding-top: 10px;font-size: 60px;
      /* 1vw = 1% of viewport width */
   }
   
@@ -187,22 +196,59 @@ margin-top: 20px;
 
   #call-btn > a {
     font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #66fcf1;
-    background-color: #66fcf1;
-    color: #0b0c10;
-    font-family:'Yusei Magic', sans-serif;
+    
+    padding: 2px;
+    
+    
+    width: 100%;
+    margin-top: 2px;
+    background-color: #1f2833;
+    color: #c5c6c7;
+font-family: 'Dancing Script', cursive;
+border-radius: 0px;
   }
+  #call-btn > a:hover{
+    
+    color: #66fcf1;
+
+  }
+  .navbar{
+    color: #66fcf1;
+  }
+.navbar-inverse .navbar-toggle {
+    border-color: #66fcf1;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+   background-color: #0b0c10;
+   border-color: #66fcf1;
+}
+.navbar-toggle {
+    
+    margin-top: -5px;
+  }
+    .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #66fcf1;
+}
+
+ {
+    background-color: #66fcf1;
+}
+
 
   #xs-deliver {
  
-    font-size: .7em;
+    font-size: .9em;
     letter-spacing: .1em;
-    text-transform: uppercase;
-    font-family:'Yusei Magic', sans-serif;
+   font-family: 'Dancing Script', cursive;
+   
 
+  }
+  #callme{
+    display: block;
+    text-align: center;
+    
+    padding: 2px;
+    
   }
   /* End Header */
 
@@ -212,7 +258,10 @@ margin-top: 20px;
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 5px;
-    font-size: 6vw;
+    font-size: 10vw;
+  }
+  button{
+    color: #66fcf1;
   }
   /* End Header */
   
