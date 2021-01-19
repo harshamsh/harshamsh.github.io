@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   background-color:#0b0c10;
-  font-family:'Yusei Magic', sans-serif;
+  font-family: 'Dancing Script', cursive;
 }
 
 /** HEADER **/
@@ -19,14 +19,14 @@ body {
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family:'Yusei Magic', sans-serif;
+  font-family: 'Anton', sans-serif;
   color: #66fcf1;
-  font-size: 50px;
+  font-size: 70px;
   text-transform: uppercase;
-  
+  padding-top: 20px;
   text-shadow: 1px 1px 1px #0b0c10;
-  margin-top: 10;
-  margin-bottom: 0;
+  m
+  margin-bottom: -10;
   line-height: 0;
 }
 
@@ -62,7 +62,7 @@ body {
   padding-bottom: 0;
 }
 #phone span span{ /* Phone number */
- font-family: 'Yusei Magic', sans-serif;
+font-family: 'Dancing Script', cursive;
 }
 #phone div { /* We Deliver */
   color: #66fcf1;
@@ -103,12 +103,13 @@ body {
   top: 0;
   right: 0;
   margin-bottom: 20px;
+  border-radius: 20px;
  
 
  
   padding: 10px;
   text-align: justify;
-  font-family:'Yusei Magic', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 
 }
 .row{
@@ -119,6 +120,7 @@ body {
 #food2 {
   background-color:#1f2833;
   color: white;
+  border-radius: 20px;
  
   top: 0;
   right: 0;
@@ -127,20 +129,21 @@ body {
   
   padding: 10px;
   text-align: justify;
-  font-family:'Yusei Magic', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 
 }
 #food3 {
  background-color: #1f2833;
  
   top: 0;
+  border-radius: 20px;
   right: 0;
  
 margin-bottom: 20px;
   
   padding: 10px;
   text-align: justify;
-  font-family:'Yusei Magic', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 
 }
 
