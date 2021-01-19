@@ -217,7 +217,7 @@ border-radius: 20px;
 .navbar-inverse .navbar-toggle {
     border-color: #66fcf1;
 }
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+.navbar-inverse .navbar-toggle:hover {
    background-color: #0b0c10;
    border-color: #66fcf1;
 }
