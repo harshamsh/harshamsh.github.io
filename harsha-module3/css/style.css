@@ -221,10 +221,7 @@ border-radius: 0px;
    background-color: #0b0c10;
    border-color: #66fcf1;
 }
-.navbar-toggle {
-    
-    margin-top: -5px;
-  }
+
     .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #66fcf1;
 }
