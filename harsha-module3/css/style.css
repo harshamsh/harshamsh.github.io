@@ -111,7 +111,9 @@ body {
   font-family:'Yusei Magic', sans-serif;
 
 }
-
+.row{
+  margin-left: 0px;
+}
 
 
 #food2 {
@@ -192,7 +194,7 @@ margin-top: 20px;
   }
 
   #xs-deliver {
-    margin-top: 5px;
+ 
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
@@ -212,10 +214,7 @@ margin-top: 20px;
   /* End Header */
   
   /* Home page */
-  #food2, #food1,#food3 {
-    width: 350px;
-    margin: 0 auto 15px;
-  }
+
 
   .col-xxs-12 {
     position: relative;
