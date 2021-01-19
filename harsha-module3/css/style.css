@@ -94,6 +94,7 @@ font-family: 'Dancing Script', cursive;
   background: #66fcf1;
   color: #1f2833;
   margin: 0 10px;
+  margin-bottom: 5px;
   padding: 2px;
   border-radius: 10px;
 }
@@ -212,9 +213,7 @@ border-radius: 0px;
     color: #66fcf1;
 
   }
-  .navbar{
-    color: #66fcf1;
-  }
+  /*Toggle bar kastalu*/
 .navbar-inverse .navbar-toggle {
     border-color: #66fcf1;
 }
@@ -234,7 +233,7 @@ border-radius: 0px;
     background-color: #66fcf1;
 }
 
-
+/*end of toggle bar*/
   #xs-deliver {
  
     font-size: .9em;
