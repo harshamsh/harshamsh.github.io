@@ -199,19 +199,18 @@ margin-top: 20px;
     font-size: 1.5em;
     
     padding: 2px;
-    
+    margin-bottom: 50px;
     
     width: 40%;
     margin-top: 2px;
     background-color: #1f2833;
-    color: #c5c6c7;
+    color:#66fcf1 ;
 font-family: 'Dancing Script', cursive;
 border-radius: 20px;
   }
   #call-btn > a:hover{
-    
-    color: #66fcf1;
-
+    background-color: #66fcf1;
+    color: #0b0c10;
   }
   /*Toggle bar kastalu*/
 .navbar-inverse .navbar-toggle {
