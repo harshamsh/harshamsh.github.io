@@ -10,8 +10,9 @@ body {
   background-color: #1f2833;
   border-radius: 0;
   border: 0;
-}
+  
 
+}
 
 
 .navbar-brand {
@@ -30,8 +31,28 @@ body {
   line-height: 0;
 }
 
-
-  
+#top-btn{
+  background-color: #c5c6c7;
+  border-radius: 20px;
+  text-align: center;
+  margin-left:40%;
+  margin-right: 40%; 
+}
+#food1 a{
+  color: #0b0c10;
+  text-decoration: none;
+} #food2 a{
+  color: #0b0c10;
+  text-decoration: none;
+} #food3 a{
+  color: #0b0c10;
+  text-decoration: none;
+} 
+#go-top-btn{
+  position: fixed;
+  margin-left: 60px;
+  bottom:100px;
+}
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
