@@ -18,7 +18,7 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 concurrency:
   group: "pages"
-  cancel-in-progress: true # For SPAs, it's often fine to cancel older builds
+  cancel-in-progress: true
 
 jobs:
   # Build job
@@ -32,7 +32,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20 # Or your preferred Node.js version (e.g., 18, 22)
-          cache: 'npm' # Cache npm dependencies for faster builds
+          # Removed 'cache: npm' for now to ensure a fresh install,
+          # but you can try adding it back later if the issue is resolved
+          # and you want faster builds.
+
+      # --- ADD THESE TWO STEPS ---
+      - name: Clean npm cache and project dependencies
+        run: |
+          npm cache clean --force || true # Clear npm cache
+          rm -rf node_modules            # Remove node_modules directory
+          rm -f package-lock.json      # Remove package-lock.json
+          # If using yarn: rm -f yarn.lock
+          # If using pnpm: rm -f pnpm-lock.yaml && rm -rf node_modules
+      # ---------------------------
 
       - name: Install dependencies
         run: npm install
